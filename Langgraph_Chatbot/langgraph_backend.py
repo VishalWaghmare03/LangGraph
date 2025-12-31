@@ -35,6 +35,23 @@ chatbot = graph.compile(checkpointer=checkpointer)
 #     'messages': [HumanMessage(content='Which is best city in maharashtra')]
 # }
 
-# print(chatbot.invoke(initial_state)['messages'][-1].content)
+# result = chatbot.invoke(initial_state)['messages'][-1].content
 
 
+
+########## We are doing this below streaming code in frontend side ##############
+# ref :: https://docs.langchain.com/oss/python/langgraph/streaming#messages
+
+# CONFIG = {'configurable':{'thread_id': 'thread-1'}}
+
+
+# for message_chunk, metadata in chatbot.stream(
+    # {'messages':[HumanMessage(content="What pune is famous?")]},
+    # config = CONFIG,
+    # stream_mode = 'messages'
+# ):
+#     if message_chunk.content:
+#         print(message_chunk.content, end=" ", flush=True)
+
+
+# print(type(stream)) ## --> <class 'generator'>
