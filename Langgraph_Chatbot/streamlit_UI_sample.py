@@ -8,6 +8,7 @@ with st.chat_message('assistant'):
 
 user_input = st.chat_input('Type Here')
 
+
 if user_input:
     with st.chat_message('user'):
         st.text(user_input)
