@@ -1,0 +1,13 @@
+--> Create frontend and backend files
+
+--> Install https://pypi.org/project/langgraph-checkpoint-sqlite/
+# pip install langgraph-checkpoint-sqlite
+
+--> implement database in backend
+
+--> chat in multiple chat_threads
+
+--> install and visualize 
+
+--> integrate to frontend
+
