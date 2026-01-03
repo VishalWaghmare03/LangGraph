@@ -1,3 +1,6 @@
 .env
+**/.env
+**/.indices
+/langsmith-masterclass/ls
 /lg
 .ipynb_checkpoints/
