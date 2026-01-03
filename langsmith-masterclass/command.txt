@@ -1,0 +1,14 @@
+# Download the code from GitHub
+--> git clone https://github.com/campusx-official/langsmith-masterclass.git
+
+# Create a virtual environment
+
+# Install libs from the requirements.txt
+
+# Create an account on langsmith
+
+# Create an .env file and paste the vars
+
+# Edit the API keys
+
+# Hello

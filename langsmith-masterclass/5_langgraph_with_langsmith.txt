@@ -1,0 +1,11 @@
+
+
+
+
+=> Evary graph execution cab be logged in the LangSmith as a trace.
+
+=> Each node (e.g., retriver, LLM, tool call, subgraph) becomes a run inside the trace.
+
+=> You can visualize the path taken.
+
+=> If a worflow branches (conditional/parallel/subgraph), LangSmith captures which path was executed.

@@ -1,0 +1,11 @@
+It triggers the build path in exactly these cases:
+
+-> No cache exists yet means First-ever run.
+
+-> PDF content changes.
+
+-> PDF file Metadata (for e.g. size) changes.
+
+-> Chunking params change-> chunk size or chunk overlap.
+
+-> Embedding model name changes -> e.g., from "text-embedding-3-small" to another model.
