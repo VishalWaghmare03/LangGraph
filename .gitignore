@@ -4,4 +4,7 @@
 **/ls
 /lg
 .ipynb_checkpoints/
-
+**/__pycache__
+**/chatbot.db-shm
+**/chatbot.db-wal
+**/chatbot.db
