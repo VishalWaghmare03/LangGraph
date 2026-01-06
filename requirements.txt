@@ -5,3 +5,4 @@ langchain_google_genai
 dotenv
 pydantic
 streamlit
+langchain_community
